@@ -13,7 +13,7 @@ a{
 
 body{
   background-image: url("https://cultureshockdc.org/wp-content/uploads/2013/06/background.jpg");
-  background-repeat: repeat-x;
+
 
 }
 p{
@@ -23,6 +23,7 @@ p{
 h2{
   text-align: left;
   color:#4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 footer{
@@ -39,6 +40,13 @@ footer{
 label{
   color:#777777;
 }
+
+table{
+  position:relative;
+  left:130px;
+  top:2px;
+
+}
 .navbar{
   background-color:white;
   margin:-10px -10px -70px -10px;
@@ -51,7 +59,8 @@ label{
   padding:5px;
   margin-left:310px;
   margin-top:-10px;
-  display:inline-block;font-family: 'Georgia', Times, Times New Roman, serif;
+  display:inline-block;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -72,6 +81,17 @@ font-family: 'Georgia', Times, Times New Roman, serif;
   left:300px;
   margin-top:80px;
   padding: 10px 10px 0 10px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.middleSection2{
+  line-height: 30px;
+  background-color:white;
+  width:600px;
+  position:relative;
+  left:300px;
+  margin-top:80px;
+  padding: 0 10px 5px 10px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -99,4 +119,76 @@ font-family: 'Georgia', Times, Times New Roman, serif;
   background-color: #4aaaa5;
   border:none;
   padding:5px 15px;
+}
+.ipad{
+  height:120px;
+  width:150px;
+}
+.dj{
+  height:120px;
+  width:150px;
+
+}
+.headphones{
+  height:120px;
+  width:150px;
+}
+.headphones2{
+  height:120px;
+  width:150px;
+}
+.keyboard{
+  height:120px;
+  width:150px;
+}
+
+.hangmantxt{
+  color:white;
+  background-color:#4aaaa5;
+  width:150px;
+  height:25px;
+  text-align: center;
+  position: relative;
+  bottom:365px;
+  left:455px;
+}
+.rpg{
+  color:white;
+  background-color:#4aaaa5;
+  width:150px;
+  height:25px;
+  text-align: center;
+  position: relative;
+  bottom:405px;
+  left:635px;
+}
+.triviatxt{
+  color:white;
+  background-color:#4aaaa5;
+  width:150px;
+  height:25px;
+  text-align: center;
+  position:relative;
+  bottom:300px;
+  left:455px;
+}
+.rutgers{
+  color:white;
+  background-color:#4aaaa5;
+  width:150px;
+  height:25px;
+  text-align: center;
+  position: relative;
+  bottom:340px;
+  left:635px;
+}
+.rockpaper{
+  color:white;
+  background-color:#4aaaa5;
+  width:150px;
+  height:25px;
+  text-align: center;
+  position: relative;
+  bottom:230px;
+  left:455px;
 }
